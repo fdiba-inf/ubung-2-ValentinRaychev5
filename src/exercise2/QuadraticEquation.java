@@ -21,8 +21,7 @@ public class QuadraticEquation {
             x1 = ((-b) + Math.sqrt(D)) / (2.0*a); 
             x2 = ((-b) - Math.sqrt(D)) / (2.0*a);
 
-            System.out.println("x1: " + x1);
-            System.out.println("x2: " + x2);
+            System.out.println(x1 + ", " + x2);
           }
           else  {
             System.out.println("Imaginary values");
