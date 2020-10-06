@@ -15,7 +15,7 @@ public class QuadraticEquation {
         double x2 = 0.0;
         if(a != 0.0)  {
 
-          double D = b*b + 4.0*a*c;
+          double D = b*b - 4.0*a*c;
 
           if(D >= 0.0)  {
             x1 = ((-b) + Math.sqrt(D)) / (2.0*a); 
